@@ -18,20 +18,53 @@ body {
   background-color: #5603ad;
   position: absolute;
 }
-@keyframes {
+
+@keyframes sizeUpAnimation {
   0% {
+    transform: scale(10);
   }
 
-  20% {
+  15% {
+    transform: scale(20);
   }
 
   50% {
+    transform: scale(15);
+  }
+
+  60% {
+    transform: scale(20);
   }
 
   100% {
+    transform: scale(10);
   }
 }
 
+.loginOriginalLayer {
+  position: absolute;
+  z-index: 2;
+}
+.loginAnimationLayer > i {
+  transform: scale(10);
+  color: var(--main-accent);
+  animation: 3s ease-out sizeUpAnimation;
+}
+
+@keyframes disappearLayer {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    display: hidden;
+    z-index: 1;
+  }
+}
+.loginAnimationLayer {
+  animation: 1s ease-out 3s forwards disappearLayer;
+}
 label {
   margin-top: 10px;
   color: #8367c7;
