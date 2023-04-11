@@ -1,6 +1,5 @@
-header {
-  display: flex;
-  justify-content: space-between;
+:root {
+  --main-accent: #5603ad;
 }
 
 body {
@@ -10,13 +9,25 @@ body {
   font-family: 'Comfortaa', sans-serif;
 }
 
-:root {
-  --main-accent: #5603ad;
+.wholeContainer {
+  background-color: #f0fff1;
+  height: 667px;
+  width: 375px;
+  padding: 20px;
+  position: relative;
 }
 
-.loginAnimation {
-  background-color: #5603ad;
+.loginAnimationLayer {
+  background-color: #8367c7;
+  width: 100%;
   position: absolute;
+  height: 100%;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @keyframes sizeUpAnimation {
@@ -65,6 +76,12 @@ body {
 .loginAnimationLayer {
   animation: 1s ease-out 3s forwards disappearLayer;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
 label {
   margin-top: 10px;
   color: #8367c7;
@@ -74,7 +91,7 @@ input {
   border: none;
   border-bottom: 1px solid var(--main-accent);
   font-family: 'Comfortaa', sans-serif;
-  width: 95%;
+  width: 90%;
   padding: 10px;
   background-color: #f0fff1;
 }
@@ -125,7 +142,7 @@ main p {
 }
 
 .loginButton {
-  width: 100%;
+  width: 90%;
   font-family: 'Comfortaa', sans-serif;
   height: 40px;
   background-color: #c2f8cb;
