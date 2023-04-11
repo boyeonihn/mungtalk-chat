@@ -19,48 +19,52 @@
   </head>
   <body>
     <div class="wholeContainer">
-      <header class="status-bar">
-        <div class="loginAnimation"></div>
-        <section>
-          <span>No Service</span>
-          <i class="fa-solid fa-wifi"></i>
-        </section>
-        <section><span>18:43</span></section>
-        <section>
-          <i class="fa-solid fa-lock-open"></i>
-          <span>11%</span>
-          <i class="fa-solid fa-battery-half"></i>
-          <i class="fa-solid fa-bolt"></i>
-        </section>
-      </header>
-      <main>
-        <h1>Welcome to MungTalk</h1>
-        <p>
-          If you have a MungTalk Account, log in with your email or phone
-          number.
-        </p>
-        <form class="login">
-          <label for="username"> Email or Phone Number </label>
-          <input
-            type="text"
-            required
-            id="username"
-            placeholder="Email or phone number"
-          />
-          <label for="password">Password</label>
-          <input
-            type="password"
-            required
-            id="password"
-            placeholder="Password"
-          />
-          <div class="buttons">
-            <button class="loginButton" type="submit">Log In</button>
-            <button class="loginButton"><a href="">Sign Up</a></button>
-            <a href="">Find MungTalk Account or Password</a>
-          </div>
-        </form>
-      </main>
+      <div class="loginAnimationLayer">
+        <i class="fa-solid fa-paw"></i>
+      </div>
+      <div class="loginOriginalLayer">
+        <header class="status-bar">
+          <section>
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+          </section>
+          <section><span>18:43</span></section>
+          <section>
+            <i class="fa-solid fa-lock-open"></i>
+            <span>11%</span>
+            <i class="fa-solid fa-battery-half"></i>
+            <i class="fa-solid fa-bolt"></i>
+          </section>
+        </header>
+        <main>
+          <h1>Welcome to MungTalk</h1>
+          <p>
+            If you have a MungTalk Account, log in with your email or phone
+            number.
+          </p>
+          <form class="login">
+            <label for="username"> Email or Phone Number </label>
+            <input
+              type="text"
+              required
+              id="username"
+              placeholder="Email or phone number"
+            />
+            <label for="password">Password</label>
+            <input
+              type="password"
+              required
+              id="password"
+              placeholder="Password"
+            />
+            <div class="buttons">
+              <button class="loginButton" type="submit">Log In</button>
+              <button class="loginButton"><a href="">Sign Up</a></button>
+              <a href="">Find MungTalk Account or Password</a>
+            </div>
+          </form>
+        </main>
+      </div>
     </div>
   </body>
 </html>
