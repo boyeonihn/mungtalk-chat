@@ -1,0 +1,31 @@
+.nav {
+  margin-top: 30px;
+}
+.nav__ul {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0;
+  gap: 50px 10px;
+}
+
+.nav__li {
+  list-style: none;
+}
+
+.nav__a {
+  text-decoration: none;
+  color: var(--main-accent);
+}
+
+.nav__li i {
+  font-size: 1.25rem;
+}
+/* bottom nav-bar */
+
+.nav--bottom {
+  background-color: var(--mint-green);
+  padding: 20px;
+}
+.nav--bottom > .nav__ul {
+  justify-content: space-around;
+}

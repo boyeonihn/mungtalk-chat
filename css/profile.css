@@ -1,0 +1,37 @@
+.user__profile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 10px;
+}
+
+.user__profile__name {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.user__profile__image {
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+  border-radius: 35%;
+}
+
+.my__profile {
+  border-bottom: 1px solid var(--main-sub-accent);
+  margin: 0 20px;
+  padding-top: 10px;
+}
+
+.friendList {
+  height: 400px;
+}
+.friendList > h2 {
+  position: relative;
+  top: -10px;
+  padding: 10px 0 0 10px;
+  font-weight: bold;
+  color: var(--main-sub-accent);
+  border-radius: 2px;
+  font-size: 0.75rem;
+  height: 0.9rem;
+}
