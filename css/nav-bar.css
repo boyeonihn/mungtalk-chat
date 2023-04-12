@@ -24,8 +24,13 @@
 
 .nav--bottom {
   background-color: var(--mint-green);
+  border-top: 1px solid;
   padding: 20px;
+  position: absolute;
+  width: 90%;
+  bottom: 0px;
 }
+
 .nav--bottom > .nav__ul {
   justify-content: space-around;
 }

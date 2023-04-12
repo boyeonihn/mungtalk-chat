@@ -22,9 +22,6 @@
   padding-top: 10px;
 }
 
-.friendList {
-  height: 400px;
-}
 .friendList > h2 {
   position: relative;
   top: -10px;
