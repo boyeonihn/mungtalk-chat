@@ -4,17 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/8a455fb345.js"
-      crossorigin="anonymous"
-    ></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Inter:wght@600;700&family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link href="./style.css" rel="stylesheet" />
+    <link href="./css/style.css" rel="stylesheet" />
     <script
       src="https://kit.fontawesome.com/8a455fb345.js"
       crossorigin="anonymous"
@@ -40,15 +37,16 @@
             <i class="fa-solid fa-bolt"></i>
           </section>
         </header>
-        <main>
+        <main class="index__main">
           <h1>Welcome to MungTalk</h1>
           <p>
             If you have a MungTalk Account, log in with your email or phone
             number.
           </p>
-          <form class="login">
+          <form class="login" action="friendList.html" method="get">
             <label for="username"> Email or Phone Number </label>
             <input
+              name="username"
               type="text"
               required
               id="username"
@@ -56,6 +54,7 @@
             />
             <label for="password">Password</label>
             <input
+              name="password"
               type="password"
               required
               id="password"
