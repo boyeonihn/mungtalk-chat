@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Inter:wght@600;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./css/style.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/8a455fb345.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>MungTalk - Chats</title>
+  </head>
+  <body>
+    <div class="wholeContainer">
+      <header class="status-bar">
+        <section>
+          <span>No Service</span>
+          <i class="fa-solid fa-wifi"></i>
+        </section>
+        <section><span>18:43</span></section>
+        <section>
+          <i class="fa-solid fa-lock-open"></i>
+          <span>11%</span>
+          <i class="fa-solid fa-battery-half"></i>
+          <i class="fa-solid fa-bolt"></i>
+        </section>
+      </header>
+      <main>
+        <section class="display-header">
+          <h3 class="display-header__title chats__header">Chats</h3>
+          <div class="display-header__links"></div>
+          <a href="./search.html" class="display-header__a">
+            <i class="fa-solid fa-magnifying-glass"></i
+          ></a>
+          <a href="#" class="display-header__a"
+            ><i class="fa-solid fa-comment-medical"></i
+          ></a>
+          <a href="./music.html" class="display-header__a"
+            ><i class="fa-solid fa-music"></i
+          ></a>
+          <a href="./settings.html" class="display-header__a"
+            ><i class="fa-solid fa-gear"></i
+          ></a>
+        </section>
+        <section class="chat-display">
+          <div class="user__component">
+            <img
+              src="./assets/little-j.jpeg"
+              alt="profile picture"
+              class="user__component__image"
+            />
+            <div class="user__component__info">
+              <span class="user__component__name">Little J</span>
+              <span class="user__component__subtitle"
+                >Hey Nari, wanna hangout?</span
+              >
+            </div>
+            <div class="user__component__extra-info">
+              <span class="user__component__extra-info-time"> 08:30</span>
+              <span class="user__component__extra-info-notification">1</span>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <nav class="nav nav--bottom">
+          <ul class="nav__ul">
+            <li class="nav__li">
+              <a href="./friends.html" class="nav__a"
+                ><i class="fa-regular fa-user"></i
+              ></a>
+            </li>
+            <li class="nav__li">
+              <a href="./chat.html" class="nav__a">
+                <span class="nav__notification">1</span
+                ><i class="fa-solid fa-comment"></i
+              ></a>
+            </li>
+            <li class="nav__li">
+              <a href="./search.html" class="nav__a"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></a>
+            </li>
+            <li class="nav__li">
+              <a href="./more.html" class="nav__a">
+                <span class="nav__notification__dot"></span
+                ><i class="fa-solid fa-ellipsis"></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
+  </body>
+</html>
