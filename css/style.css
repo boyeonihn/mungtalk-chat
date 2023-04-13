@@ -46,12 +46,24 @@ main p {
   color: #8367c7;
 }
 
-main > p {
+.alert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  background-color: rgba(179, 233, 199, 0.3);
+  border-radius: 10px;
+}
+
+.alert > p {
   text-align: center;
+  padding: 0 10px;
   font-size: 0.75rem;
-  padding-top: 10px;
-  background-color: var(--mint-accent);
   color: var(--main-accent);
+}
+
+.alert > i {
+  color: var(--main-sub-accent);
 }
 .buttons {
   width: 100%;

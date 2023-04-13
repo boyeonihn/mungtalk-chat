@@ -8,12 +8,12 @@ header {
 header span {
   font-size: 12px;
   font-weight: bold;
-  color: #8367c7;
+  color: var(--main-sub-accent);
 }
 
 header i {
   transform: scale(0.75);
-  color: #8367c7;
+  color: var(--main-sub-accent);
 }
 .fa-battery-half {
   transform: scale(1);
