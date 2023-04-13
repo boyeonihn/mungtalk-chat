@@ -57,3 +57,13 @@
   left: 12px;
   top: -6px;
 }
+
+.nav__notification__dot {
+  background-color: var(--main-sub-accent);
+  border-radius: 1px solid (var--main-accent);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  position: absolute;
+  left: 20px;
+}
