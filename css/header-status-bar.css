@@ -4,6 +4,7 @@ header {
   position: absolute;
   width: 100%;
   top: 0px;
+  padding: 2px;
 }
 header span {
   font-size: 12px;
@@ -11,6 +12,13 @@ header span {
   color: var(--main-sub-accent);
 }
 
+.status-bar > section:first-of-type span:first-of-type {
+  margin-left: 5px;
+}
+
+.status-bar .fa-bolt {
+  margin-right: 5px;
+}
 header i {
   transform: scale(0.75);
   color: var(--main-sub-accent);
