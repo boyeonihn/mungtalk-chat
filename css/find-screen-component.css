@@ -1,0 +1,121 @@
+.find-display {
+  border-bottom: 1px solid var(--main-accent);
+}
+
+.find-display {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.find-display:first-of-type {
+  padding: 0 40px;
+  color: var(--main-accent);
+}
+
+main section:nth-of-type(3) {
+  display: block;
+  height: 200px;
+}
+.find-display__header__component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--main-accent);
+  font-size: 0.75rem;
+  padding: 10px;
+}
+
+.find-display__header__component span {
+  display: block;
+  width: 60px;
+  text-align: center;
+}
+.find-display i {
+  font-size: 1.5rem;
+  color: var(--main-accent);
+  padding-bottom: 20px;
+}
+
+.find-display-h3 {
+  width: 100%;
+  font-size: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--main-sub-accent);
+  margin-bottom: 10px;
+}
+
+.find-display p {
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  height: 80%;
+  justify-content: center;
+}
+
+.find-display:last-of-type {
+  border: none;
+  display: block;
+}
+
+.open-chat-component {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0px;
+  border-bottom: 1px solid var(--mint-green);
+}
+
+.open-chat-component__text {
+  display: flex;
+  flex-direction: column;
+}
+.open-chat-component__text h4 {
+  color: var(--main-accent);
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+
+.open-chat-component__subtitle {
+  margin-bottom: 5px;
+}
+.open-chat-component__hashtag,
+.open-chat-component__subtitle {
+  color: var(--main-sub-accent);
+  font-size: 0.75rem;
+}
+
+.open-chat-component__subtitle {
+  padding-top: 5px;
+}
+.open-chat-component__status {
+  color: palevioletred;
+}
+
+.open-chat__component-album {
+  display: relative;
+}
+
+.open-chat__component-album__cover {
+  height: 70px;
+  width: 70px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.open-chat__component-album__likes {
+  position: absolute;
+  font-size: 0.75rem;
+  padding: 3px;
+  width: 50px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(0, 0, 0, 0.5);
+  bottom: 80px;
+  right: 20px;
+}
+
+.open-chat-component:first-of-type .open-chat__component-album__likes {
+  bottom: 160px;
+  right: 20px;
+}

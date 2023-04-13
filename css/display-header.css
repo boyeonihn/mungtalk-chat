@@ -21,3 +21,23 @@
 .display-header__a i {
   color: var(--main-accent);
 }
+
+.find-header .display-header__links {
+  justify-content: flex-end;
+  position: relative;
+}
+
+.find-header i {
+  margin-left: 20px;
+}
+
+.notification__dot {
+  background-color: var(--main-sub-accent);
+  border-radius: 1px solid (var--main-accent);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  position: absolute;
+  right: -5px;
+  top: -5px;
+}

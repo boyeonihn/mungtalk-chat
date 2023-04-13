@@ -5,6 +5,7 @@
 @import 'login-form.css';
 @import 'nav-bar.css';
 @import 'profile.css';
+@import 'find-screen-component.css';
 
 :root {
   --main-accent: #5603ad;
@@ -45,6 +46,10 @@ main p {
   font-size: 1.5rem;
   text-align: center;
   color: #8367c7;
+}
+
+.index__main > p {
+  font-size: 0.9rem;
 }
 
 .alert {
