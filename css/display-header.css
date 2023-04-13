@@ -1,0 +1,23 @@
+.display-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--main-accent);
+  margin-top: 35px;
+}
+
+.display-header__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.display-header__links {
+  display: flex;
+  justify-content: space-evenly;
+  color: inherit;
+  width: 30%;
+}
+
+.display-header__a i {
+  color: var(--main-accent);
+}
