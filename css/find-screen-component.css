@@ -12,7 +12,7 @@
   color: var(--main-accent);
 }
 
-main section:nth-of-type(3) {
+.find-screen section:nth-of-type(3) {
   display: block;
   height: 200px;
 }

@@ -1,0 +1,39 @@
+.icon-section {
+  display: flex;
+  width: 95%;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--main-sub-accent);
+  padding: 20px 10px;
+}
+
+#icon-section {
+  padding: 20px 10px;
+}
+.icon-section__component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--main-accent);
+  padding: 15px;
+  padding-top: 0px;
+}
+
+.icon-section__component span {
+  font-size: 0.75rem;
+  padding-top: 10px;
+}
+.icon-section__component > i {
+  font-size: 1.5rem;
+}
+
+.icon-section-suggestions {
+  border: none;
+  justify-content: flex-start;
+}
+
+.icon-section-suggestions > div {
+  width: 50px;
+  text-align: center;
+}

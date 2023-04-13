@@ -41,3 +41,9 @@
   right: -5px;
   top: -5px;
 }
+
+.more-display-user-component__extra-info {
+  color: var(--main-accent);
+  font-size: 1.25rem;
+  font-weight: normal;
+}
