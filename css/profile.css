@@ -1,27 +1,46 @@
-.user__profile {
+.user__component {
   display: flex;
   align-items: center;
-  gap: 20px;
   padding-bottom: 10px;
 }
 
-.user__profile__name {
-  font-size: 1.25rem;
+.user__component__name {
+  font-size: 1rem;
   font-weight: bold;
+  color: var(--main-accent);
 }
-.user__profile__image {
+
+.user__component__image {
   object-fit: cover;
   width: 60px;
   height: 60px;
-  border-radius: 35%;
+  border-radius: 33%;
+  margin-right: 10px;
 }
 
-.my__profile {
+.user__component-xl {
   border-bottom: 1px solid var(--main-sub-accent);
-  margin: 0 20px;
   padding-top: 10px;
 }
+.user__component-xl * {
+  font-size: 1.25rem;
+}
 
+.chat-display .user__component-xl {
+  border: none;
+}
+
+.user__component__info {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 80%;
+}
+
+.user__component__subtitle {
+  font-size: 0.75rem;
+  padding-top: 5px;
+}
 .friendList > h2 {
   position: relative;
   top: -10px;
@@ -31,4 +50,29 @@
   border-radius: 2px;
   font-size: 0.75rem;
   height: 0.9rem;
+}
+
+.user__component__extra-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.user__component__extra-info-time {
+  font-size: 0.75rem;
+  color: var(--main-sub-accent);
+  margin-bottom: 3px;
+}
+
+.user__component__extra-info-notification {
+  background-color: var(--main-sub-accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: white;
+  font-size: 10px;
+  font-weight: 600;
 }
