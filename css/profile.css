@@ -30,6 +30,12 @@
   border: none;
 }
 
+.chat-display-link {
+  display: block;
+  text-decoration: none;
+  padding: 20px;
+}
+
 .user__component__info {
   display: flex;
   flex-direction: column;
