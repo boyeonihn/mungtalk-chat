@@ -7,6 +7,7 @@
 @import 'profile.css';
 @import 'find-screen-component.css';
 @import 'icon-section.css';
+@import 'settings-elements.css';
 
 :root {
   --main-accent: #5603ad;
