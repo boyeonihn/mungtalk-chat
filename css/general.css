@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Comfortaa', sans-serif;
+}
+
+.wholeContainer {
+  background-color: #f0fff1;
+  height: 667px;
+  width: 375px;
+  position: relative;
+}
+
+main > * {
+  padding: 10px 20px;
+}

@@ -1,4 +1,5 @@
 @import 'reset.css';
+@import 'general.css';
 @import 'index-animation.css';
 @import 'header-status-bar.css';
 @import 'display-header.css';
@@ -8,30 +9,13 @@
 @import 'find-screen-component.css';
 @import 'icon-section.css';
 @import 'settings-elements.css';
+@import 'chatscreen-display.css';
 
 :root {
   --main-accent: #5603ad;
   --main-sub-accent: #8367c7;
   --mint-green: #c2f8cb;
   --mint-accent: #b3e9c7;
-}
-
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Comfortaa', sans-serif;
-}
-
-.wholeContainer {
-  background-color: #f0fff1;
-  height: 667px;
-  width: 375px;
-  position: relative;
-}
-
-main > * {
-  padding: 10px 20px;
 }
 
 .index__main {

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Inter:wght@600;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./css/style.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/8a455fb345.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>MungTalk - Little J</title>
+  </head>
+  <body>
+    <div class="wholeContainer chatscreen-container">
+      <header class="status-bar">
+        <section>
+          <span>No Service</span>
+          <i class="fa-solid fa-wifi"></i>
+        </section>
+        <section><span>18:43</span></section>
+        <section>
+          <i class="fa-solid fa-lock-open"></i>
+          <span>11%</span>
+          <i class="fa-solid fa-battery-half"></i>
+          <i class="fa-solid fa-bolt"></i>
+        </section>
+      </header>
+      <main class="chatscreen-display">
+        <section class="chatscreen-header">
+          <a href="./chat.html" class="chatscreen-header_icon"
+            ><i class="fa-solid fa-angle-left"></i
+          ></a>
+          <h2 class="settings-header__h2">Little J</h2>
+          <div class="icon-group">
+            <a href="./find.html" 1class="chatscreen-header_icon">
+              <i class="fa-solid fa-magnifying-glass"></i
+            ></a>
+            <a href="#" class="chatscreen-header-icon">
+              <i class="fa-solid fa-bars"></i>
+            </a>
+          </div>
+        </section>
+        <section class="chatscreen-conversation">
+          <span class="chatscreen-conversation__date"
+            >Friday, April 14, 2023</span
+          >
+          <div class="conversation__friend">
+            <img
+              src="./assets/little-j.jpeg"
+              alt="Little J"
+              class="conversation__friend__pic"
+            />
+            <span class="friend__name">Little J</span>
+            <div class="conversation__bubble">
+              Hey Nari!
+              <span class="conversation__timestamp">15:00</span>
+            </div>
+          </div>
+          <div class="conversation__me">
+            <div class="conversation__bubble">
+              Wazzup!
+              <span class="conversation__timestamp">15:03</span>
+            </div>
+          </div>
+        </section>
+        <section class="keyboard">
+          <div class="keyboard__input-container">
+            <i class="fa-regular fa-square-plus"></i>
+            <div class="keyboard__input">
+              <input type="text" placeholder="Hi!" />
+              <i class="fa-regular fa-face-smile"></i>
+              <i class="fa-solid fa-circle-arrow-up"></i>
+            </div>
+          </div>
+          <section class="keyboard__alphabet-container">
+            <div class="keyboard__alphabet-row">
+              <div class="keyboard__alphabet">q</div>
+              <div class="keyboard__alphabet">w</div>
+              <div class="keyboard__alphabet">e</div>
+              <div class="keyboard__alphabet">r</div>
+              <div class="keyboard__alphabet">t</div>
+              <div class="keyboard__alphabet">y</div>
+              <div class="keyboard__alphabet">u</div>
+              <div class="keyboard__alphabet">i</div>
+              <div class="keyboard__alphabet">o</div>
+              <div class="keyboard__alphabet">p</div>
+            </div>
+            <div class="keyboard__alphabet-row">
+              <div class="keyboard__alphabet">a</div>
+              <div class="keyboard__alphabet">s</div>
+              <div class="keyboard__alphabet">d</div>
+              <div class="keyboard__alphabet">f</div>
+              <div class="keyboard__alphabet">g</div>
+              <div class="keyboard__alphabet">h</div>
+              <div class="keyboard__alphabet">j</div>
+              <div class="keyboard__alphabet">k</div>
+              <div class="keyboard__alphabet">l</div>
+            </div>
+            <div class="keyboard__alphabet-row">
+              <div class="keyboard__alphabet alphabet-special">
+                <i class="fa-solid fa-circle-up"></i>
+              </div>
+              <div class="keyboard__alphabet">z</div>
+              <div class="keyboard__alphabet">x</div>
+              <div class="keyboard__alphabet">c</div>
+              <div class="keyboard__alphabet">v</div>
+              <div class="keyboard__alphabet">b</div>
+              <div class="keyboard__alphabet">n</div>
+              <div class="keyboard__alphabet">m</div>
+              <div class="keyboard__alphabet alphabet-special">
+                <i class="fa-solid fa-delete-left"></i>
+              </div>
+            </div>
+            <div class="keyboard__alphabet-row">
+              <div class="keyboard__alphabet alphabet-special">123</div>
+              <div class="keyboard__alphabet alphabet-special">
+                <i class="fa-solid fa-globe"></i>
+              </div>
+              <div class="keyboard__alphabet">
+                <i class="fa-solid fa-microphone"></i>
+              </div>
+              <div class="keyboard__alphabet alphabet-space">space</div>
+              <div class="keyboard__alphabet alphabet-special alphabet-return">
+                return
+              </div>
+            </div>
+          </section>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
