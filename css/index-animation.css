@@ -49,7 +49,7 @@
 
   to {
     opacity: 0;
-    display: hidden;
+    visibility: hidden;
     z-index: 1;
   }
 }
