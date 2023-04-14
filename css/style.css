@@ -1,6 +1,7 @@
 @import 'reset.css';
 @import 'general.css';
 @import 'index-animation.css';
+@import 'no-mobile.css';
 @import 'header-status-bar.css';
 @import 'display-header.css';
 @import 'login-form.css';
